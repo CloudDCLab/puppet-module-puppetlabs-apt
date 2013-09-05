@@ -1,0 +1,25 @@
+Source: puppet-module-puppetlabs-apt
+Section: admin
+Priority: optional
+Maintainer: Thomas Bechtold <thomasbechtold@jpberlin.de>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.4
+Vcs-Git: git://git.debian.org/git/pkg-puppet/puppet-module-puppetlabs-apt.git
+Vcs-Browser: http://git.debian.org/?p=pkg-puppet/puppet-module-puppetlabs-apt.git;a=summary
+Homepage: https://forge.puppetlabs.com/puppetlabs/apt
+
+Package: puppet-module-puppetlabs-apt
+Section: admin
+Architecture: all
+Depends: ${misc:Depends},
+         puppet-common,
+         puppet-module-puppetlabs-stdlib (>= 2.2.1)
+Description: Puppet module for apt
+ Puppet lets you centrally manage every important aspect of your system
+ using a cross-platform specification language that manages all the
+ separate elements normally aggregated in different files, like users,
+ cron jobs, and hosts, along with obviously discrete elements like
+ packages, services, and files.
+ .
+ The APT module provides a simple interface for managing APT source, key,
+ and definitions with Puppet.

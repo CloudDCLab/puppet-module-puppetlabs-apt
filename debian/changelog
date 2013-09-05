@@ -1,0 +1,5 @@
+puppet-module-puppetlabs-apt (1.2.0-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #720086)
+
+ -- Thomas Bechtold <thomasbechtold@jpberlin.de>  Thu, 05 Sep 2013 15:17:57 -0000
