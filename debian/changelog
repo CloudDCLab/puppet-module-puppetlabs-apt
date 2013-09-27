@@ -1,8 +1,9 @@
-puppet-module-puppetlabs-apt (1.3.0-1) UNRELEASED; urgency=low
+puppet-module-puppetlabs-apt (1.3.0-1) unstable; urgency=low
 
+  [ Thomas Bechtold ]
   * New upstream release.
 
- -- Thomas Bechtold <thomasbechtold@jpberlin.de>  Sun, 22 Sep 2013 10:04:23 +0200
+ -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 27 Sep 2013 20:36:52 +0200
 
 puppet-module-puppetlabs-apt (1.2.0-1) unstable; urgency=low
 
