@@ -2,6 +2,7 @@ require 'spec_helper'
 describe 'apt::unattended_upgrades', :type => :class do
   let(:file_unattended) { '/etc/apt/apt.conf.d/50unattended-upgrades' }
   let(:file_periodic) { '/etc/apt/apt.conf.d/10periodic' }
+  let(:facts) { { :lsbdistid => 'Debian' } }
 
   it { should contain_package("unattended-upgrades") }
 
@@ -26,7 +27,7 @@ describe 'apt::unattended_upgrades', :type => :class do
   describe "origins" do
     describe "with param defaults" do
       let(:params) {{ }}
-      it { should contain_file(file_unattended).with_content(/^Unattended-Upgrade::Allowed-Origins \{\n\t"\${distro_id}:\${distro_codename}-security";\n\};$/) }
+      it { should contain_file(file_unattended).with_content(/^Unattended-Upgrade::Allowed-Origins \{\n\t"\$\{distro_id\}:\$\{distro_codename\}-security";\n\};$/) }
     end
 
     describe "with origins => ['ubuntu:precise-security']" do

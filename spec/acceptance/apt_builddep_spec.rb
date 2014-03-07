@@ -1,10 +1,10 @@
-require 'spec_helper_system'
+require 'spec_helper_acceptance'
 
-describe 'apt::builddep' do
+describe 'apt::builddep', :unless => UNSUPPORTED_PLATFORMS.include?(fact('osfamily')) do
 
   context 'reset' do
     it 'removes packages' do
-      shell('apt-get -y remove glusterfs-server')
+      shell('apt-get -y remove znc')
       shell('apt-get -y remove g++')
     end
   end
@@ -13,12 +13,10 @@ describe 'apt::builddep' do
     it 'should work with no errors' do
       pp = <<-EOS
       include '::apt'
-      apt::builddep { 'glusterfs-server': }
+      apt::builddep { 'znc': }
       EOS
 
-      puppet_apply(pp) do |r|
-        r.exit_code.should_not == 1
-      end
+      apply_manifest(pp, :catch_failures => true)
     end
 
     describe 'should install g++ as a dependency' do
@@ -30,7 +28,7 @@ describe 'apt::builddep' do
 
   context 'reset' do
     it 'removes packages' do
-      shell('apt-get -y remove glusterfs-server')
+      shell('apt-get -y remove znc')
       shell('apt-get -y remove g++')
     end
   end
