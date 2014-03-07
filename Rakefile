@@ -1,2 +1,4 @@
 require 'puppetlabs_spec_helper/rake_tasks'
-require 'rspec-system/rake_task'
+require 'puppet-lint/tasks/puppet-lint'
+
+PuppetLint.configuration.send('disable_single_quote_string_with_variables')
