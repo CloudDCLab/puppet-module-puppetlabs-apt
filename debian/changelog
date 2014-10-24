@@ -1,8 +1,12 @@
-puppet-module-puppetlabs-apt (1.6.0-1) UNRELEASED; urgency=medium
+puppet-module-puppetlabs-apt (1.6.0-1) unstable; urgency=medium
 
   * Imported upstream relase 1.6.0
+  * Declare compliance with Debian policy 3.9.6
+  * Update debian/control metadata with cme (Vcs-*)
+  * Update dependencies
+  * Update file lists
 
- -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 24 Oct 2014 21:17:40 +0200
+ -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 24 Oct 2014 22:06:53 +0200
 
 puppet-module-puppetlabs-apt (1.4.2-1) unstable; urgency=medium
 
