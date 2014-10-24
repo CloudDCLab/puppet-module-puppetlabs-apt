@@ -12,7 +12,7 @@ Homepage: https://forge.puppetlabs.com/puppetlabs/apt
 Package: puppet-module-puppetlabs-apt
 Architecture: all
 Depends: ${misc:Depends},
-         puppet-common,
+         puppet-common (>= 3),
          puppet-module-puppetlabs-stdlib
 Description: Puppet module for apt
  Puppet lets you centrally manage every important aspect of your system
