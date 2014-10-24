@@ -1,4 +1,3 @@
-Modulefile usr/share/puppet/modules.available/puppetlabs-apt
 metadata.json usr/share/puppet/modules.available/puppetlabs-apt
 templates usr/share/puppet/modules.available/puppetlabs-apt
 tests usr/share/puppet/modules.available/puppetlabs-apt
