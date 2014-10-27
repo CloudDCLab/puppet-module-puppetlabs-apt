@@ -1,3 +1,12 @@
+puppet-module-puppetlabs-apt (1.6.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Include the lib directory in the package.  apt_key is now a native
+    Puppet type implemented by code in lib, and the module now includes
+    facter plugins for various APT information.
+
+ -- Russ Allbery <rra@debian.org>  Mon, 27 Oct 2014 13:51:58 -0700
+
 puppet-module-puppetlabs-apt (1.6.0-1) unstable; urgency=medium
 
   * Imported upstream relase 1.6.0
