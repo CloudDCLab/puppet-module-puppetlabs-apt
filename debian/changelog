@@ -1,3 +1,9 @@
+puppet-module-puppetlabs-apt (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Weiser <michael.weiser@gmx.de>  Fri, 21 Nov 2014 11:33:44 +0100
+
 puppet-module-puppetlabs-apt (1.6.0-2) unstable; urgency=medium
 
   * Team upload.
