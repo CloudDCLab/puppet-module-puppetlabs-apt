@@ -1,8 +1,13 @@
 puppet-module-puppetlabs-apt (2.1.0-1) unstable; urgency=medium
 
+  [ Michael Weiser ]
   * New upstream release.
 
- -- Michael Weiser <michael.weiser@gmx.de>  Tue, 23 Jun 2015 15:23:44 +0200
+  [ Stig Sandbeck Mathisen ]
+  * [a76dc3a] Add DEP-8 tests
+  * [b1d1e0c] Adjust dependencies
+
+ -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 11 Sep 2015 23:59:08 +0200
 
 puppet-module-puppetlabs-apt (1.7.0-1) unstable; urgency=medium
 
