@@ -1,4 +1,6 @@
-puppet-module-puppetlabs-apt (2.1.1-1) UNRELEASED; urgency=medium
+puppet-module-puppetlabs-apt (2.1.1-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Michael Weiser ]
   * New upstream release.
@@ -7,8 +9,9 @@ puppet-module-puppetlabs-apt (2.1.1-1) UNRELEASED; urgency=medium
   * Imported upstream release 2.1.1-1
   * [a76dc3a] Add DEP-8 tests
   * [b1d1e0c] Adjust dependencies
+  * [d57712a] Add examples
 
- -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 11 Sep 2015 23:59:08 +0200
+ -- Stig Sandbeck Mathisen <ssm@debian.org>  Sat, 12 Sep 2015 01:05:42 +0200
 
 puppet-module-puppetlabs-apt (1.7.0-1) unstable; urgency=medium
 
