@@ -1,9 +1,10 @@
-puppet-module-puppetlabs-apt (2.1.0-1) unstable; urgency=medium
+puppet-module-puppetlabs-apt (2.1.1-1) UNRELEASED; urgency=medium
 
   [ Michael Weiser ]
   * New upstream release.
 
   [ Stig Sandbeck Mathisen ]
+  * Imported upstream release 2.1.1-1
   * [a76dc3a] Add DEP-8 tests
   * [b1d1e0c] Adjust dependencies
 
