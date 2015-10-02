@@ -1,8 +1,9 @@
-puppet-module-puppetlabs-apt (2.2.0-1) UNRELEASED; urgency=medium
+puppet-module-puppetlabs-apt (2.2.0-1) unstable; urgency=medium
 
+  * Team upload.
   * Imported upstream release 2.2.0
 
- -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 02 Oct 2015 22:20:02 +0200
+ -- Stig Sandbeck Mathisen <ssm@debian.org>  Fri, 02 Oct 2015 22:24:52 +0200
 
 puppet-module-puppetlabs-apt (2.1.1-1) unstable; urgency=medium
 
